@@ -1,5 +1,5 @@
 import express from "express"
-import userController from "../controllers/usercontroller.js";
+import userController from "../controllers/userController.js";
 import authorize from "../middlewares/authorization.js";
 const router=express.Router();
 
